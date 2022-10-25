@@ -11,6 +11,8 @@ if(userNumber > cpuNumber){
     alert("Hai vinto!")
 } else if (userNumber < cpuNumber){
     alert("Hai perso!")
+} else if (userNumber = cpuNumber){
+    alert("Hai pareggiato!")
 }
 document.getElementById("user").innerHTML = userNumber
 document.getElementById("cpu").innerHTML = cpuNumber
